@@ -1,70 +1,199 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h1><b>Monster Hunter monsters</b></h1>
+  <h2><i>Monsters of the video game saga Monster Hunter World</i></h2>
+</div>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `npm start`
+# 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+<!-- PROJECT DESCRIPTION -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#  Monster Hunter monsters <a name="about-project"></a>
 
-### `npm run build`
+**Monster Hunter monsters** is a responsive mobile web application built using React and Redux, designed to provide users with monster's data from Monster Hunter World. Monster Hunter monsters shows general information about the most iconic beings in the Monster Hunter universe.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠 Built With <a name="built-with"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Tech Stack <a name="tech-stack"></a>
 
-### `npm run eject`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS3</a></li>
+    <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript">JavaScript</a></li>
+    <li><a href="https://react.dev/">React</a></li>
+    <li><a href="https://redux-toolkit.js.org/">Redux</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- Features -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Key Features <a name="key-features"></a>
 
-## Learn More
+- **Interactive:** Visualize general data and curious information on monsters.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **User-Friendly Interface:** Intuitive design and smooth navigation make it easy for users to explore monsters facts.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- 🎤 Project presentation: [Video demo]()
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Deployment
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Prerequisites
 
-### `npm run build` fails to minify
+In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<ul>
+    <li><p>A modern browser (supports html5)</p></li>
+</ul>
+<ul>
+    <li><p>Git and a GitHub account</p></li>
+</ul>
+
+### Setup
+
+Clone this repository to your desired folder by using this 👇️ command :
+
+```
+git clone https://github.com/EvansSnave/react-capstone-project.git
+```
+
+### Install
+
+Install this project with:
+
+```
+ npm install
+```
+
+### Usage
+
+```
+ npm start
+```
+
+### Run tests
+
+```
+ npm test
+```
+
+### Deployment <a name="#triangular_flag_on_post-deployment"></a>
+
+- Active Link []().
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Kevin Cruz**
+- GitHub: [EvansSnave](https://github.com/EvansSnave)
+- Twitter: [Kroja13](https://twitter.com/Kroja13)
+- LinkedIn: [Kevin Cruz](https://www.linkedin.com/in/kevin-cruz-25159a201/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+We welcome contributions to enhance Monster Hunter monsters and expand its capabilities. To contribute:
+
+1. Fork the repository.
+
+2. Create a new branch for your feature: `git checkout -b feature-new-feature`.
+
+3. Commit your changes: `git commit -m 'Add new feature'`.
+
+4. Push to the branch: `git push origin feature-new-feature`.
+
+5. Open a pull request detailing your changes.
+
+Let's work together to provide valuable air quality information to the people of Chile!
+
+Also issues, and feature requests are welcome!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project and know someone who might find it helpful, please share it.
+Or give it a **star** ⭐️
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
