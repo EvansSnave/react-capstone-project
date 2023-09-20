@@ -1,23 +1,21 @@
-const HomePage = () => {
-  return (
-    <main>
+const HomePage = () => (
+  <main>
+    <div>
+      <img />
+      <h1>Monster Hunter data</h1>
+    </div>
+    <div>
+      <div>Large monsters</div>
       <div>
-        <img></img>
-        <h1>Monster Hunter data</h1>
-      </div>
-      <div>
-        <div>Large monsters</div>
         <div>
+          <img />
           <div>
-            <img></img>
-            <div>
-              <img></img>
-              <h2></h2>
-              <p></p>
-            </div>
+            <img />
+            <h2 />
+            <p />
           </div>
         </div>
       </div>
-    </main>
-  )
-}
+    </div>
+  </main>
+);
