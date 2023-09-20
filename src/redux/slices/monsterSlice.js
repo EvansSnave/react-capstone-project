@@ -17,7 +17,10 @@ const monsters = createSlice({
   extraReducers: (builder) => {
     builder
       .addCase(fetchMonstersAPI.fulfilled, (state, action) => {
-
-      })
-  }
+        state = action.payload;
+      });
+  },
 });
+
+export default monsters.reducer;
+export { fetchMonstersAPI };

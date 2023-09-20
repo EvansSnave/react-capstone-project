@@ -1,3 +1,7 @@
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { fetchMonstersAPI } from '../redux/slices/monsterSlice';
+
 const CreateCard = () => (
   <div>
     <img alt="" />
@@ -9,19 +13,27 @@ const CreateCard = () => (
   </div>
 );
 
-const HomePage = () => (
-  <main>
-    <div>
-      <img alt="" />
-      <h1>Monster Hunter data</h1>
-    </div>
-    <div>
-      <div>Large monsters</div>
+const HomePage = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchMonstersAPI());
+  }, [dispatch]);
+
+  return (
+    <main>
       <div>
-        <CreateCard />
+        <img alt="" />
+        <h1>Monster Hunter data</h1>
       </div>
-    </div>
-  </main>
-);
+      <div>
+        <div>Large monsters</div>
+        <div>
+          <CreateCard />
+        </div>
+      </div>
+    </main>
+  );
+};
 
 export default HomePage;
