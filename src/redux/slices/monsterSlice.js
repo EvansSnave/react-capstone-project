@@ -12,12 +12,12 @@ const fetchMonstersAPI = createAsyncThunk('monsters/fetchMonstersAPI', async () 
 
 const monsters = createSlice({
   name: 'monsters',
-  initialState: {},
+  initialState: [],
   reducers: {},
   extraReducers: (builder) => {
     builder
       .addCase(fetchMonstersAPI.fulfilled, (state, action) => {
-        state = action.payload;
+        state.push(...action.payload);
       });
   },
 });
