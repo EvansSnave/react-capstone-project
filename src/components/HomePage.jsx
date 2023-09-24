@@ -1,17 +1,25 @@
 import { useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import { fetchMonstersAPI } from '../redux/slices/monsterSlice';
 
-const CreateCard = () => (
-  <div>
+const CreateCard = ({ name, species, id }) => (
+  <Link to={`/${id}`}>
     <img alt="" />
     <div>
       <img alt="" />
-      <h2>Monster name</h2>
-      <p>Species</p>
+      <h2>{name}</h2>
+      <p>{species}</p>
     </div>
-  </div>
+  </Link>
 );
+
+CreateCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  id: PropTypes.number.isRequired,
+  species: PropTypes.string.isRequired,
+};
 
 const HomePage = () => {
   const dispatch = useDispatch();
@@ -19,6 +27,9 @@ const HomePage = () => {
   useEffect(() => {
     dispatch(fetchMonstersAPI());
   }, [dispatch]);
+
+  const monsters = useSelector((state) => state.monsters);
+  const reducedList = monsters.slice(20, 36);
 
   return (
     <main>
@@ -29,7 +40,14 @@ const HomePage = () => {
       <div>
         <div>Large monsters</div>
         <div>
-          <CreateCard />
+          {reducedList.map((monster) => (
+            <CreateCard
+              key={monster.id}
+              id={monster.id}
+              name={monster.name}
+              species={monster.species}
+            />
+          ))}
         </div>
       </div>
     </main>

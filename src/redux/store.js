@@ -6,3 +6,5 @@ const store = configureStore({
     monsters: monsterSlice,
   },
 });
+
+export default store;

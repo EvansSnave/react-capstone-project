@@ -17,6 +17,10 @@
   "rules": {
     "react/jsx-filename-extension": ["warn", { "extensions": [".js", ".jsx"] }],
     "react/react-in-jsx-scope": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {"devDependencies": true}
+    ],
     "import/no-unresolved": "off",
     "no-shadow": "off"
   },
@@ -24,7 +28,6 @@
     {
        // feel free to replace with your preferred file pattern - eg. 'src/**/*Slice.js' or 'redux/**/*Slice.js'
       "files": ["src/**/*Slice.js"],
-      "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
       // avoid state param assignment
       "rules": { "no-param-reassign": ["error", { "props": false }] }
     }
