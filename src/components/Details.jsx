@@ -5,18 +5,18 @@ import { useNavigate, useParams } from 'react-router-dom';
 const Details = () => {
   const monsters = useSelector((state) => state.monsters);
   const monsterCut = monsters.slice(20, 36);
-  console.log(monsters);
   const [monster, setMonster] = useState('');
-  const { monsterID } = useParams();
+  const monsterID = useParams();
+  const id = Number(monsterID.monster);
   const navigate = useNavigate();
 
   useEffect(() => {
-    monsters.forEach((monster) => {
-      if (monster.id === Number(monsterID)) {
+    monsterCut.forEach((monster) => {
+      if (monster.id === id) {
         setMonster(monster);
       }
     });
-  }, [monsterID, monsterCut]);
+  }, [id, monsterCut]);
 
   return (
     <div>
@@ -29,12 +29,9 @@ const Details = () => {
         <img alt="" />
       </div>
       <div>
-        <div>{monster.elements[0]}</div>
         <div>{monster.description}</div>
-        <div>{monster.locations[0].name}</div>
-        <div>{monster.locations[1].name}</div>
-        <div>{monster.resistances[0].element}</div>
-        <div>{monster.weaknesses[0].element}</div>
+        <div>{monster.type}</div>
+        <div>{monster.species}</div>
       </div>
     </div>
   );
