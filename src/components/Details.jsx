@@ -23,7 +23,9 @@ const Details = () => {
       <button
         type="button"
         onClick={() => navigate('/')}
-      />
+      >
+        Return
+      </button>
       <div>
         <h1>{monster.name}</h1>
         <img alt="" />
