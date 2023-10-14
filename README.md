@@ -194,6 +194,6 @@ Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwad
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT) licensed.
+This project is [MIT](https://github.com/EvansSnave/react-capstone-project/blob/async-render/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
