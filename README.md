@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>Monster Hunter monsters</b></h1>
-  <h2><i>Monsters of the video game saga Monster Hunter World</i></h2>
+  <h1><b>Cities website </b></h1>
+  <h2><i>Cities and information about their pollution status</i></h2>
 </div>
 
 ---
@@ -34,9 +34,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-#  Monster Hunter monsters <a name="about-project"></a>
+#  Cities website <a name="about-project"></a>
 
-**Monster Hunter monsters** is a responsive mobile web application built using React and Redux, designed to provide users with monster's data from Monster Hunter World. Monster Hunter monsters shows general information about the most iconic beings in the Monster Hunter universe.
+**Cities website** is a responsive mobile web application built using React and Redux, designed to provide users with cities's data from Cities website World. Cities website shows general information about the air pollution in central Europe.
 
 ---
 
@@ -64,15 +64,6 @@
 - **Interactive:** Visualize general data and curious information on monsters.
 
 - **User-Friendly Interface:** Intuitive design and smooth navigation make it easy for users to explore monsters facts.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
-
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- 🎤 Project presentation: [Video demo]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -149,7 +140,7 @@ Install this project with:
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-We welcome contributions to enhance Monster Hunter monsters and expand its capabilities. To contribute:
+We welcome contributions to enhance Cities website monsters and expand its capabilities. To contribute:
 
 1. Fork the repository.
 
@@ -160,8 +151,6 @@ We welcome contributions to enhance Monster Hunter monsters and expand its capab
 4. Push to the branch: `git push origin feature-new-feature`.
 
 5. Open a pull request detailing your changes.
-
-Let's work together to provide valuable air quality information to the people of Chile!
 
 Also issues, and feature requests are welcome!
 
