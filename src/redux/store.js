@@ -1,10 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import monsterSlice from './slices/monsterSlice';
+import pollutionReducer from './slice';
 
-const store = configureStore({
+export default configureStore({
   reducer: {
-    monsters: monsterSlice,
+    pollution: pollutionReducer,
   },
 });
-
-export default store;
