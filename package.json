@@ -1,7 +1,6 @@
 {
   "name": "react-capstone-project-1",
   "version": "0.1.0",
-  "homepage": "https://evanssnave.github.io",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
