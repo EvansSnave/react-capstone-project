@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/react-capstone-project" element={<Home />} />
         <Route path="/:country" element={<Details />} />
       </Routes>
     </div>
